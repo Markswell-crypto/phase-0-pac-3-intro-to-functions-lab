@@ -52,7 +52,7 @@ function shout(string) {
   //     console.log.restore()
   //   })
   // })
-  function logWhisper (string) {
+  function logWhisper(string) {
     console.log(string.toLowerCase( ));
   }
   
@@ -70,9 +70,9 @@ function shout(string) {
   //   })
   // })
   function sayHiToGrandma (string) {
-    var cantUnswer = "I can't hear you!";
-    var yesUnswer = "YES INDEED!";
-    var lovUnswer = "I love you, too.";
+    let cantUnswer = "I can't hear you!";
+    let yesUnswer = "YES INDEED!";
+    let lovUnswer = "I love you, too.";
     if (string.toLowerCase(string) === string) {
       return cantUnswer;
     }
@@ -99,9 +99,9 @@ function shout(string) {
    // });
   //})
   function  sayHiToHeadphonedRoommate (string) {
-    var cantUnswer = "I can't hear you!";
-    var yesUnswer = "YES INDEED!";
-    var lovUnswer = "I would love to!";
+    let cantUnswer = "I can't hear you!";
+    let yesUnswer = "YES INDEED!";
+    let lovUnswer = "I would love to!";
     if (string.toLowerCase(string) === string) {
       return cantUnswer;
     }
